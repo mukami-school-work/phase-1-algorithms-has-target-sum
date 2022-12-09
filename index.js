@@ -12,6 +12,7 @@ function hasTargetSum(array, target) {
   
 /* 
   Write the Big O time complexity of your function here
+  For every n elements in the input array, we need to check it against the remaining n elements. So as our input grows, our algorithm's runtime gets worse by a power of two (n * n, or n²)
 */
 
 /* 
